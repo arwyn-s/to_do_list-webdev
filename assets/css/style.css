@@ -1,0 +1,13 @@
+#container {
+    border: 2px solid brown;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+li>span {
+    color: red;
+}

@@ -18,6 +18,9 @@ $("input[type=text]").on("keypress", function(event){
     if(event.which === 13){
         let addText = $(this).val();
         $(this).val("");
-        $("ul").append("<li><span>X</span> "+ addText +"</li>");
+        $("ul").append("<li><span><i class='fa fa-trash'></i></span> "+ addText +"</li>");
     }
+});
+$(".fa-plus").on("click", function(event){
+    $("input[type='text']").fadeToggle(200);
 });
